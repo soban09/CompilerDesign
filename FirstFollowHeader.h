@@ -90,14 +90,14 @@ void ComputingFirsts(){
         First[t->first].insert('#');
     }
 
-    cout<<"\n\nFirsts : \n";
-    for(f=First.begin(); f!=First.end(); f++){
-        cout<<f->first<<" : {";
-        for(st=f->second.begin(); st!=f->second.end(); st++){
-            cout<<*st<<", ";
-        }
-        cout<<"}\n";
-    }
+    // cout<<"\n\nFirsts : \n";
+    // for(f=First.begin(); f!=First.end(); f++){
+    //     cout<<f->first<<" : {";
+    //     for(st=f->second.begin(); st!=f->second.end(); st++){
+    //         cout<<*st<<", ";
+    //     }
+    //     cout<<"}\n";
+    // }
 }
 
 set<char> FindFollow(char ch, char parent){
@@ -153,18 +153,18 @@ void ComputingFollows(){
         takeUnion(v->first, s, false);
     }
 
-    cout<<"\nFollows : \n";
-    for(f=Follow.begin(); f!=Follow.end(); f++){
-        cout<<f->first<<" : {";
-        for(st=f->second.begin(); st!=f->second.end(); st++){
-            cout<<*st<<", ";
-        }
-        cout<<"}\n";
-    }
+    // cout<<"\nFollows : \n";
+    // for(f=Follow.begin(); f!=Follow.end(); f++){
+    //     cout<<f->first<<" : {";
+    //     for(st=f->second.begin(); st!=f->second.end(); st++){
+    //         cout<<*st<<", ";
+    //     }
+    //     cout<<"}\n";
+    // }
 }
 
 void printDetails(){
-    cout<<"GRAMMAR : \n";
+    cout<<"\nGRAMMAR : \n";
     for(int i=0; i<Grammar.size(); i++){
         cout<<i<<") "<<Grammar[i][0]<<" -> ";
         for(int j=1; j<Grammar[i].size(); j++){
@@ -173,20 +173,20 @@ void printDetails(){
         cout<<endl;
     }
     
-    cout<<"\nVariables : {";
-    map<char, vector<int>>::iterator v;
-    for(v=variables.begin(); v!=variables.end(); v++){
-        cout<<v->first<<", ";
-    }
-    cout<<"}";
+    // cout<<"\nVariables : {";
+    // map<char, vector<int>>::iterator v;
+    // for(v=variables.begin(); v!=variables.end(); v++){
+    //     cout<<v->first<<", ";
+    // }
+    // cout<<"}";
     
-    cout<<"\n\nTerminals : {";
-    for(t=terminals.begin(); t!=terminals.end(); t++) cout<<t->first<<", ";
-    cout<<"}";
+    // cout<<"\n\nTerminals : {";
+    // for(t=terminals.begin(); t!=terminals.end(); t++) cout<<t->first<<", ";
+    // cout<<"}";
 }
 
 void run(){
-    cout<<"SOBAN FAROOQ \nROLL NO : 20BCS049\n\n";
+    // cout<<"SOBAN FAROOQ \nROLL NO : 20BCS049\n\n";
     ifstream fin;
     string line;
     

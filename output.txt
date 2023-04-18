@@ -1,5 +1,3 @@
-SOBAN FAROOQ 
-ROLL NO : 20BCS049
 
 GRAMMAR : 
 0) E -> TR
@@ -10,24 +8,6 @@ GRAMMAR :
 5) S -> *T
 6) F -> n
 7) F -> (E)
-
-Variables : {E, F, R, S, T, }
-
-Terminals : {#, (, ), *, +, n, }
-
-Firsts : 
-E : {(, n, }
-F : {(, n, }
-R : {#, +, }
-S : {#, *, }
-T : {(, n, }
-
-Follows : 
-E : {$, ), }
-F : {$, ), *, +, }
-R : {$, ), }
-S : {$, ), +, }
-T : {$, ), +, }
 
 
 LL PARSER TABLE : 
@@ -45,3 +25,208 @@ LL PARSER TABLE :
 +---------------------------------------------------------------------------------+
 |    T    |      3    |           |           |           |      3    |           |
 +---------------------------------------------------------------------------------+
+
+
+String validation against LL Parser
+Press q to quit : 
+
+Enter a string : String is NOT accepted
+
+Enter a string : String is NOT accepted
+
+Enter a string : String is NOT accepted
+
+Enter a string : String is NOT accepted
+
+Enter a string : String is NOT accepted
+
+Enter a string : String is NOT accepted
+
+Enter a string : String is NOT accepted
+
+Enter a string : String is NOT accepted
+
+Enter a string : String is NOT accepted
+
+Enter a string : String is NOT accepted
+
+Enter a string : String is NOT accepted
+
+Enter a string : String is NOT accepted
+
+Enter a string : String is NOT accepted
+
+Enter a string : String is NOT accepted
+
+Enter a string : String is NOT accepted
+
+Enter a string : String is NOT accepted
+
+Enter a string : String is NOT accepted
+
+Enter a string : String is NOT accepted
+
+Enter a string : String is NOT accepted
+
+Enter a string : String is NOT accepted
+
+Enter a string : String is NOT accepted
+
+Enter a string : String is NOT accepted
+
+Enter a string : String is NOT accepted
+
+Enter a string : String is NOT accepted
+
+Enter a string : String is NOT accepted
+
+Enter a string : String is NOT accepted
+
+Enter a string : String is NOT accepted
+
+Enter a string : String is NOT accepted
+
+Enter a string : String is NOT accepted
+
+Enter a string : String is NOT accepted
+
+Enter a string : String is NOT accepted
+
+Enter a string : String is NOT accepted
+
+Enter a string : String is NOT accepted
+
+Enter a string : String is NOT accepted
+
+Enter a string : String is NOT accepted
+
+Enter a string : String is NOT accepted
+
+Enter a string : String is NOT accepted
+
+Enter a string : String is NOT accepted
+
+Enter a string : String is NOT accepted
+
+Enter a string : String is NOT accepted
+
+Enter a string : String is NOT accepted
+
+Enter a string : String is NOT accepted
+
+Enter a string : String is NOT accepted
+
+Enter a string : String is NOT accepted
+
+Enter a string : String is NOT accepted
+
+Enter a string : String is NOT accepted
+
+Enter a string : String is NOT accepted
+
+Enter a string : String is NOT accepted
+
+Enter a string : String is NOT accepted
+
+Enter a string : String is NOT accepted
+
+Enter a string : String is NOT accepted
+
+Enter a string : String is NOT accepted
+
+Enter a string : String is NOT accepted
+
+Enter a string : String is NOT accepted
+
+Enter a string : String is NOT accepted
+
+Enter a string : String is NOT accepted
+
+Enter a string : String is NOT accepted
+
+Enter a string : String is NOT accepted
+
+Enter a string : String is NOT accepted
+
+Enter a string : String is NOT accepted
+
+Enter a string : String is NOT accepted
+
+Enter a string : String is NOT accepted
+
+Enter a string : String is NOT accepted
+
+Enter a string : String is NOT accepted
+
+Enter a string : String is NOT accepted
+
+Enter a string : String is NOT accepted
+
+Enter a string : String is NOT accepted
+
+Enter a string : String is NOT accepted
+
+Enter a string : String is NOT accepted
+
+Enter a string : String is NOT accepted
+
+Enter a string : String is NOT accepted
+
+Enter a string : String is NOT accepted
+
+Enter a string : String is NOT accepted
+
+Enter a string : String is NOT accepted
+
+Enter a string : String is NOT accepted
+
+Enter a string : String is NOT accepted
+
+Enter a string : String is NOT accepted
+
+Enter a string : String is NOT accepted
+
+Enter a string : String is NOT accepted
+
+Enter a string : String is NOT accepted
+
+Enter a string : String is NOT accepted
+
+Enter a string : String is NOT accepted
+
+Enter a string : String is NOT accepted
+
+Enter a string : String is NOT accepted
+
+Enter a string : String is NOT accepted
+
+Enter a string : String is NOT accepted
+
+Enter a string : String is NOT accepted
+
+Enter a string : String is NOT accepted
+
+Enter a string : String is NOT accepted
+
+Enter a string : String is NOT accepted
+
+Enter a string : String is NOT accepted
+
+Enter a string : String is NOT accepted
+
+Enter a string : String is NOT accepted
+
+Enter a string : String is NOT accepted
+
+Enter a string : String is NOT accepted
+
+Enter a string : String is NOT accepted
+
+Enter a string : String is NOT accepted
+
+Enter a string : String is NOT accepted
+
+Enter a string : String is NOT accepted
+
+Enter a string : String is NOT accepted
+
